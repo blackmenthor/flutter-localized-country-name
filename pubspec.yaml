@@ -1,0 +1,21 @@
+name: flutter_localized_country_name
+description: A Flutter plugin to get localized country name.
+version: 0.0.1
+author: a.arifandi@mozio.com
+homepage: www.mozio.com
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.mozio.flutter_localized_country_name
+    pluginClass: FlutterLocalizedCountryNamePlugin
